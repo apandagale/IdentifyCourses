@@ -6,6 +6,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 
@@ -20,11 +22,19 @@ public class BaseClass {
    public WebDriver driver;
     public Logger logger;
 
+    @Parameters({"os","browser"})
     @BeforeClass
-    public void setup(){
+    public void setup(String os, String br){
         logger= LogManager.getLogger(this.getClass());
 
-        driver = new ChromeDriver();
+        switch(br.toLowerCase())
+        {
+            case "chrome" : driver=new ChromeDriver(); break;
+            case "edge" : driver=new EdgeDriver(); break;
+            case "firefox": driver=new FirefoxDriver(); break;
+            default : System.out.println("Invalid browser name.."); return;
+        }
+//        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.coursera.org/");
         driver.manage().window().maximize();
