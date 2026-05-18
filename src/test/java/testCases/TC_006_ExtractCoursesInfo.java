@@ -32,7 +32,7 @@ public class TC_006_ExtractCoursesInfo extends BaseClass {
         logger.info("****** Clicked on Language Dropdown ******");
 
         cs.clickEnglishLanguageDropdownCheckbox();
-        logger.info("****** Clicked on Language Dropdown ******");
+        logger.info("****** English Language Checkbox Clicked ******");
 
         cs.clickViewButton();
         logger.info("****** View Button Clicked ******");

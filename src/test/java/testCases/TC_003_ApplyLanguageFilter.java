@@ -21,7 +21,7 @@ public class TC_003_ApplyLanguageFilter extends BaseClass {
         logger.info("****** Clicked on Language Dropdown ******");
 
         cs.clickEnglishLanguageDropdownCheckbox();
-        logger.info("****** Clicked on Language Dropdown ******");
+        logger.info("****** Clicked on English Checkbox ******");
 
         boolean isSelectedEnglish=cs.clickViewButton();
         logger.info("****** View Button Clicked ******");
