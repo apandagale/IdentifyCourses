@@ -23,7 +23,8 @@ public class TC_005_ExtractAllLanguagesAndLevels extends BaseClass {
 
         CoursesPage cs = new CoursesPage(driver);
 
-        ExcelUtility ex=new ExcelUtility("C:\\Users\\2483954\\IdeaProjects\\IdentifyCourses\\ResultData\\OutputData.xlsx");
+//        ExcelUtility ex=new ExcelUtility("C:\\Users\\2483954\\IdeaProjects\\IdentifyCourses\\ResultData\\OutputData.xlsx");
+        ExcelUtility ex=new ExcelUtility(System.getProperty("user.dir")+"\\ResultData\\OutputData.xlsx");
         ex.setCellData("Languages",0,0,"Languages Names");
 
         cs.clickLanguageDropdown();
@@ -41,7 +42,7 @@ public class TC_005_ExtractAllLanguagesAndLevels extends BaseClass {
         logger.info("****** View Button Clicked ******");
 
 
-        ExcelUtility ex2=new ExcelUtility("C:\\Users\\2483954\\IdeaProjects\\IdentifyCourses\\ResultData\\OutputData.xlsx");
+        ExcelUtility ex2=new ExcelUtility(System.getProperty("user.dir")+"\\ResultData\\OutputData.xlsx");
         ex2.setCellData("Levels",0,0,"Levels");
         cs.clickLevelDropdown();
         logger.info("****** Clicked on Level Dropdown ******");

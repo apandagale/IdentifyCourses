@@ -15,8 +15,8 @@
 <!--            <class name="testCases.TC_002_SearchBoxAceeptData"/>-->
 <!--            <class name="testCases.TC_003_ApplyLanguageFilter"/>-->
 <!--            <class name="testCases.TC_004_ApplyLevelFilter"/>-->
-<!--            <class name="testCases.TC_005_ExtractAllLanguagesAndLevels"/>-->
-<!--            <class name="testCases.TC_006_ExtractCoursesInfo"/>-->
+            <class name="testCases.TC_005_ExtractAllLanguagesAndLevels"/>
+            <class name="testCases.TC_006_ExtractCoursesInfo"/>
 <!--            <class name="testCases.TC_007_ValidateForm"></class>-->
         </classes>
     </test>

@@ -23,7 +23,7 @@ public class TC_006_ExtractCoursesInfo extends BaseClass {
 
         CoursesPage cs = new CoursesPage(driver);
 
-        ExcelUtility ex=new ExcelUtility("C:\\Users\\2483954\\IdeaProjects\\IdentifyCourses\\ResultData\\OutputData.xlsx");
+        ExcelUtility ex=new ExcelUtility(System.getProperty("user.dir")+"\\ResultData\\OutputData.xlsx");
         ex.setCellData("CoursesInfo",0,0,"Course Name");
         ex.setCellData("CoursesInfo",0,1,"Course Ratings");
         ex.setCellData("CoursesInfo",0,2,"Course Duration");
