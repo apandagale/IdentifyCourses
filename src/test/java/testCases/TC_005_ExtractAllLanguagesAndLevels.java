@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TC_005_ExtractAllLanguagesAndLevels extends BaseClass {
 
-    @Test
+    @Test(groups ={"Master","Sanity","Regression"})
     public void testExtractAllLanguagesAndLevels () throws IOException {
 
         logger.info("****** Starting TC_005_ExtractAllLanguagesAndLevels ******");

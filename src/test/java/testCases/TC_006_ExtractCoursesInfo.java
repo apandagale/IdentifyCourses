@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TC_006_ExtractCoursesInfo extends BaseClass {
 
-    @Test
+    @Test(groups ={"Master","Sanity","Regression"})
     public void testExtractCoursesInfo() throws IOException {
 
         logger.info("****** Starting TC_006_ExtractCoursesInfo ******");

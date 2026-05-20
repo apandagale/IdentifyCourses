@@ -8,7 +8,7 @@ import testBase.BaseClass;
 
 public class TC_003_ApplyLanguageFilter extends BaseClass {
 
-    @Test
+    @Test(groups ={"Master","Sanity","Regression"})
     public void testApplyLanguageFilter(){
 
         logger.info("****** Starting TC_003_ApplyLanguageFilter ******");

@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC_007_ValidateForm extends BaseClass {
 
-    @Test
+    @Test(groups ={"Master","Sanity","Regression"})
     public void testValidateForm(){
 
         logger.info("****** Start TC_007_ValidateForm testValidateForm ******");

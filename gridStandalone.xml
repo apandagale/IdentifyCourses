@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager" />
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="mytest1">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="testCases.TC_001_SearchOptionEnabled"/>
+            <class name="testCases.TC_002_SearchBoxAceeptData"/>
+            <!--            <class name="testCases.TC_003_ApplyLanguageFilter"/>-->
+            <!--            <class name="testCases.TC_004_ApplyLevelFilter"/>-->
+            <!--            <class name="testCases.TC_005_ExtractAllLanguagesAndLevels"/>-->
+            <!--            <class name="testCases.TC_006_ExtractCoursesInfo"/>-->
+            <!--            <class name="testCases.TC_007_ValidateForm"></class>-->
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="mytest2">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="edge"/>
+
+        <classes>
+            <class name="testCases.TC_001_SearchOptionEnabled"/>
+            <class name="testCases.TC_002_SearchBoxAceeptData"/>
+            <!--                <class name="testCases.TC_003_ApplyLanguageFilter"/>-->
+            <!--                <class name="testCases.TC_004_ApplyLevelFilter"/>-->
+            <!--                <class name="testCases.TC_005_ExtractAllLanguagesAndLevels"/>-->
+            <!--                <class name="testCases.TC_006_ExtractCoursesInfo"/>-->
+            <!--                <class name="testCases.TC_007_ValidateForm"></class>-->
+        </classes>
+    </test>
+</suite>

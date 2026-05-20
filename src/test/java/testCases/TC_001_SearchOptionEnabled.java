@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_001_SearchOptionEnabled extends BaseClass {
 
-    @Test
+    @Test(groups ={"Master","Sanity"})
     public void testSearchOptionEnabled(){
 
         logger.info("****** Starting TC_001_SearchOptionEnabled ******");

@@ -8,7 +8,7 @@ import testBase.BaseClass;
 
 public class TC_004_ApplyLevelFilter extends BaseClass {
 
-    @Test
+    @Test(groups ={"Master","Sanity","Regression"})
     public void testApplyLevelFilter(){
 
         logger.info("****** Starting TC_004_ApplyLevelFilter ******");

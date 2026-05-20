@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_002_SearchBoxAceeptData extends BaseClass {
 
-    @Test
+    @Test(groups ={"Master","Sanity"})
     public void testSearchOptionAcceptData(){
 
         logger.info("****** Starting TC_002_SearchOptionAcceptData ******");
