@@ -12,7 +12,7 @@ public class TC_007_ValidateForm extends BaseClass {
     @Test(groups ={"Master","Sanity","Regression"})
     public void testValidateForm(){
 
-        logger.info("****** Start TC_007_ValidateForm testValidateForm ******");
+        logger.info("****** Start TC_007_ValidateForm ******");
 
         HomePageElements hp = new HomePageElements(driver);
         hp.clickLinkForBusinesses();
