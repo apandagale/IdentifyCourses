@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -92,8 +93,10 @@ public class FormPage extends BaseObject{
     }
     public void clickSubmitButton(){
 //        submitButton.click();
-        Actions actions=new Actions(driver);
-        actions.moveToElement(submitButton).click().perform();
+//        Actions actions=new Actions(driver);
+//        actions.moveToElement(submitButton).click().perform();
+        JavascriptExecutor ex=(JavascriptExecutor)driver;
+        ex.executeScript("arguments[0].click();", submitButton);
     }
 
     public String getInvalidEmailMessage(){

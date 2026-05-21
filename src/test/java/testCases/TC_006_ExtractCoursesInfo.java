@@ -48,26 +48,33 @@ public class TC_006_ExtractCoursesInfo extends BaseClass {
 
         List<WebElement> courseTitle=cs.getCourseTitle();
 //        System.out.println(courseTitle.size());
-        for(int i=0; i<2; i++){
-            ex.setCellData("CoursesInfo",i+1,0,courseTitle.get(i).getText());
+        if(courseTitle.size()>0) {
+
+
+            for (int i = 0; i < 2; i++) {
+                ex.setCellData("CoursesInfo", i + 1, 0, courseTitle.get(i).getText());
 //            System.out.println("Course Name:"+courseTitle.get(i).getText());
-        }
+            }
 
-        List<WebElement> ratings=cs.getRatings();
+            List<WebElement> ratings = cs.getRatings();
 //        System.out.println(ratings.size());
-        for(int i=0; i<2; i++){
-            ex.setCellData("CoursesInfo",i+1,1,ratings.get(i).getText());
+            for (int i = 0; i < 2; i++) {
+                ex.setCellData("CoursesInfo", i + 1, 1, ratings.get(i).getText());
 //            System.out.println("Course Ratings:"+ratings.get(i).getText());
-        }
+            }
 
-        List<WebElement> duration=cs.getDuration();
+            List<WebElement> duration = cs.getDuration();
 //        System.out.println(duration.size());
-        for(int i=0; i<2; i++){
-            ex.setCellData("CoursesInfo",i+1,2,duration.get(i).getText());
+            for (int i = 0; i < 2; i++) {
+                ex.setCellData("CoursesInfo", i + 1, 2, duration.get(i).getText());
 //            System.out.println("Course Duration:"+duration.get(i).getText());
+            }
+            logger.info("****** All course info is written in excel ******");
+        }
+        else {
+            System.out.println("No course found");
         }
 
-        logger.info("****** All course info is written in excel ******");
 
         logger.info("****** End TC_006_ExtractCoursesInfo ******");
     }

@@ -25,10 +25,11 @@ public class TC_004_ApplyLevelFilter extends BaseClass {
         cs.clickBigginerLevelDropdownCheckbox();
         logger.info("****** Bigginer Level Checkbox Clicked ******");
 
-        cs.clickViewButton2();
+        boolean rs=cs.clickViewButton2();
         logger.info("****** View Button Clicked ******");
 
-        Assert.assertEquals(result,true);
+//        Assert.assertTrue(rs);
+        Assert.assertTrue(result);
         logger.info("****** End TC_004_ApplyLevelFilter ******");
     }
 }

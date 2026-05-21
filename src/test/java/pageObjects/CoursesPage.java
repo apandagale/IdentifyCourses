@@ -39,7 +39,8 @@ public class CoursesPage extends BaseObject {
 
 
 
-    @FindBy(xpath = "//h3[@class='cds-CommonCard-title css-6ecy9b']")
+    @FindBy(xpath = "//*[@class='cds-CommonCard-title css-6ecy9b']")
+//    @FindBy(xpath = "//div[@class='cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-fdx774 cds-142']/h3[@class='cds-CommonCard-title css-6ecy9b']")
     List<WebElement> courseTitle;
 
     @FindBy(xpath = "//div[@class='cds-RatingStat-meter']")
@@ -83,9 +84,11 @@ public class CoursesPage extends BaseObject {
     {
         return levels;
     }
-    public void  clickViewButton2()
+    public boolean  clickViewButton2()
     {
+        boolean l=bigginerLevelDropdownCheckbox.isSelected();
         viewButton2.click();
+        return l;
     }
 
     public List<WebElement> getCourseTitle()

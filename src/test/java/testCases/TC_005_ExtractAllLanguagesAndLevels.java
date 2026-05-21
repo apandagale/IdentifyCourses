@@ -42,15 +42,15 @@ public class TC_005_ExtractAllLanguagesAndLevels extends BaseClass {
         logger.info("****** View Button Clicked ******");
 
 
-        ExcelUtility ex2=new ExcelUtility(System.getProperty("user.dir")+"\\ResultData\\OutputData.xlsx");
-        ex2.setCellData("Levels",0,0,"Levels");
+//        ExcelUtility ex2=new ExcelUtility(System.getProperty("user.dir")+"\\ResultData\\OutputData.xlsx");
+        ex.setCellData("Levels",0,0,"Levels");
         cs.clickLevelDropdown();
         logger.info("****** Clicked on Level Dropdown ******");
 
         List<WebElement> levelList=cs.getLevelList();
 //        System.out.println("levelList.size():"+levelList.size());
         for (int i=0;i<languagesList.size();i++){
-            ex2.setCellData("Levels",i+1,0,levelList.get(i).getText());
+            ex.setCellData("Levels",i+1,0,levelList.get(i).getText());
 //            System.out.println("levelList.get(i):"+levelList.get(i).getText());
         }
         logger.info("****** Level Data is Written in excel ******");

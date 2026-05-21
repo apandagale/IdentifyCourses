@@ -35,6 +35,15 @@ public class TC_008AllTestCases extends BaseClass {
         cs.clickLanguageDropdown();
         logger.info("****** Clicked on Language Dropdown ******");
 
+        ex.setCellData("Languages",0,0,"Language List");
+        List<WebElement> languagesList=cs.getLanguagesList();
+//        System.out.println("languagesList.size():"+languagesList.size());
+        for (int i=0;i<languagesList.size();i++){
+            ex.setCellData("Languages",i+1,0,languagesList.get(i).getText());
+//            System.out.println("languagesList.get(i):"+languagesList.get(i).getText());
+        }
+        logger.info("****** Language Data is Written in excel ******");
+
         cs.clickEnglishLanguageDropdownCheckbox();
         logger.info("****** English Language Checkbox Clicked ******");
 
@@ -43,6 +52,15 @@ public class TC_008AllTestCases extends BaseClass {
 
         cs.clickLevelDropdown();
         logger.info("****** Clicked on Level Dropdown ******");
+
+        ex.setCellData("Levels",0,0,"Level List");
+        List<WebElement> levelList=cs.getLevelList();
+//        System.out.println("levelList.size():"+levelList.size());
+        for (int i=0;i<languagesList.size();i++){
+            ex.setCellData("Levels",i+1,0,levelList.get(i).getText());
+//            System.out.println("levelList.get(i):"+levelList.get(i).getText());
+        }
+        logger.info("****** Level Data is Written in excel ******");
 
         cs.clickBigginerLevelDropdownCheckbox();
         logger.info("****** Bigginer Level Checkbox Clicked ******");
@@ -105,6 +123,6 @@ public class TC_008AllTestCases extends BaseClass {
         Assert.assertEquals(msg, "Invalid Input");
         logger.info("****** Error msg validated ******");
 
-        logger.info("****** End TC_007_ValidateForm ******");
+        logger.info("****** End TC_008AllTestCases ******");
     }
 }
