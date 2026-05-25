@@ -47,8 +47,10 @@ public class TC_006_ExtractCoursesInfo extends BaseClass {
         logger.info("****** View Button Clicked ******");
 
         List<WebElement> courseTitle=cs.getCourseTitle();
+        List<WebElement> ratings = cs.getRatings();
+        List<WebElement> duration = cs.getDuration();
 //        System.out.println(courseTitle.size());
-        if(courseTitle.size()>0) {
+        if(courseTitle.size() >= 2 && ratings.size() >= 2 && duration.size() >= 2) {
 
 
             for (int i = 0; i < 2; i++) {
@@ -56,14 +58,14 @@ public class TC_006_ExtractCoursesInfo extends BaseClass {
 //            System.out.println("Course Name:"+courseTitle.get(i).getText());
             }
 
-            List<WebElement> ratings = cs.getRatings();
+
 //        System.out.println(ratings.size());
             for (int i = 0; i < 2; i++) {
                 ex.setCellData("CoursesInfo", i + 1, 1, ratings.get(i).getText());
 //            System.out.println("Course Ratings:"+ratings.get(i).getText());
             }
 
-            List<WebElement> duration = cs.getDuration();
+
 //        System.out.println(duration.size());
             for (int i = 0; i < 2; i++) {
                 ex.setCellData("CoursesInfo", i + 1, 2, duration.get(i).getText());

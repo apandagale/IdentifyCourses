@@ -14,7 +14,7 @@ public class HomePageElements extends BaseObject{
     @FindBy(id = "search-autocomplete-input")
     public WebElement serachBox;
 
-    @FindBy(xpath = "//button[@class='cds-149 cds-iconButton-small cds-iconButton-primary cds-iconButton-small cds-iconButton-primary css-pd4l2e']")
+    @FindBy(xpath = "//button[@class='cds-149 cds-iconButton-small cds-iconButton-primary cds-iconButton-small cds-iconButton-primary css-pneq06']")
     public WebElement searchButton;
 
     @FindBy(partialLinkText = "For Businesses")

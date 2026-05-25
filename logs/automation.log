@@ -1,119 +1,86 @@
-2026-05-21 09:37:32 INFO  TC_001_SearchOptionEnabled:13 - ****** Starting TC_001_SearchOptionEnabled ******
-2026-05-21 09:37:33 INFO  TC_001_SearchOptionEnabled:17 - ****** End TC_001_SearchOptionEnabled *****
-2026-05-21 09:37:47 INFO  TC_002_SearchBoxAceeptData:13 - ****** Starting TC_002_SearchOptionAcceptData ******
-2026-05-21 09:37:58 INFO  TC_002_SearchBoxAceeptData:16 - ****** Entered Data in search box ******
-2026-05-21 09:37:58 INFO  TC_002_SearchBoxAceeptData:18 - ****** End TC_002_SearchOptionAcceptData ******
-2026-05-21 09:38:17 INFO  TC_003_ApplyLanguageFilter:14 - ****** Starting TC_003_ApplyLanguageFilter ******
-2026-05-21 09:38:26 INFO  TC_003_ApplyLanguageFilter:17 - ****** Entered Data in search box ******
-2026-05-21 09:38:27 INFO  TC_003_ApplyLanguageFilter:21 - ****** Clicked on Language Dropdown ******
-2026-05-21 09:38:28 INFO  TC_003_ApplyLanguageFilter:24 - ****** Clicked on English Checkbox ******
-2026-05-21 09:38:28 INFO  TC_003_ApplyLanguageFilter:27 - ****** View Button Clicked ******
-2026-05-21 09:38:28 INFO  TC_003_ApplyLanguageFilter:30 - ****** End TC_003_ApplyLanguageFilter ******
-2026-05-21 09:38:55 INFO  TC_004_ApplyLevelFilter:14 - ****** Starting TC_004_ApplyLevelFilter ******
-2026-05-21 09:39:18 INFO  TC_004_ApplyLevelFilter:18 - ****** Entered Data in search box ******
-2026-05-21 09:39:19 INFO  TC_004_ApplyLevelFilter:23 - ****** Clicked on Level Dropdown ******
-2026-05-21 09:39:19 INFO  TC_004_ApplyLevelFilter:26 - ****** Bigginer Level Checkbox Clicked ******
-2026-05-21 09:39:20 INFO  TC_004_ApplyLevelFilter:29 - ****** View Button Clicked ******
-2026-05-21 09:39:45 INFO  TC_005_ExtractAllLanguagesAndLevels:18 - ****** Starting TC_005_ExtractAllLanguagesAndLevels ******
-2026-05-21 09:39:56 INFO  TC_005_ExtractAllLanguagesAndLevels:22 - ****** Entered Data in search box ******
-2026-05-21 09:40:01 INFO  TC_005_ExtractAllLanguagesAndLevels:31 - ****** Clicked on Language Dropdown ******
-2026-05-21 09:40:14 INFO  TC_005_ExtractAllLanguagesAndLevels:39 - ****** Language Data is Written in excel ******
-2026-05-21 09:40:14 INFO  TC_005_ExtractAllLanguagesAndLevels:42 - ****** View Button Clicked ******
-2026-05-21 09:40:15 INFO  TC_005_ExtractAllLanguagesAndLevels:48 - ****** Clicked on Level Dropdown ******
-2026-05-21 09:40:16 INFO  TC_005_ExtractAllLanguagesAndLevels:56 - ****** Level Data is Written in excel ******
-2026-05-21 09:40:16 INFO  TC_005_ExtractAllLanguagesAndLevels:59 - ****** View Button Clicked ******
-2026-05-21 09:40:16 INFO  TC_005_ExtractAllLanguagesAndLevels:61 - ****** End TC_004_ExtractAllLanguagesAndLevels ******
-2026-05-21 09:40:45 INFO  TC_006_ExtractCoursesInfo:18 - ****** Starting TC_006_ExtractCoursesInfo ******
-2026-05-21 09:40:57 INFO  TC_006_ExtractCoursesInfo:22 - ****** Entered Data in search box ******
-2026-05-21 09:40:58 INFO  TC_006_ExtractCoursesInfo:32 - ****** Clicked on Language Dropdown ******
-2026-05-21 09:40:59 INFO  TC_006_ExtractCoursesInfo:35 - ****** English Language Checkbox Clicked ******
-2026-05-21 09:41:00 INFO  TC_006_ExtractCoursesInfo:38 - ****** View Button Clicked ******
-2026-05-21 09:41:00 INFO  TC_006_ExtractCoursesInfo:41 - ****** Clicked on Level Dropdown ******
-2026-05-21 09:41:01 INFO  TC_006_ExtractCoursesInfo:44 - ****** Bigginer Level Checkbox Clicked ******
-2026-05-21 09:41:02 INFO  TC_006_ExtractCoursesInfo:47 - ****** View Button Clicked ******
-2026-05-21 09:41:30 INFO  TC_007_ValidateForm:15 - ****** Start TC_007_ValidateForm ******
-2026-05-21 09:41:46 INFO  TC_007_ValidateForm:19 - ****** For Enterprised Clicked ******
-2026-05-21 09:42:03 INFO  TC_007_ValidateForm:23 - ****** Getting form ******
-2026-05-21 09:42:08 INFO  TC_007_ValidateForm:39 - ****** Data entered in form******
-2026-05-21 09:42:10 INFO  TC_007_ValidateForm:44 - ****** Error msg validated ******
-2026-05-21 09:42:10 INFO  TC_007_ValidateForm:46 - ****** End TC_007_ValidateForm ******
-2026-05-21 09:51:07 INFO  TC_001_SearchOptionEnabled:13 - ****** Starting TC_001_SearchOptionEnabled ******
-2026-05-21 09:51:07 INFO  TC_001_SearchOptionEnabled:17 - ****** End TC_001_SearchOptionEnabled *****
-2026-05-21 09:51:27 INFO  TC_002_SearchBoxAceeptData:13 - ****** Starting TC_002_SearchOptionAcceptData ******
-2026-05-21 09:51:47 INFO  TC_002_SearchBoxAceeptData:16 - ****** Entered Data in search box ******
-2026-05-21 09:51:47 INFO  TC_002_SearchBoxAceeptData:18 - ****** End TC_002_SearchOptionAcceptData ******
-2026-05-21 09:52:03 INFO  TC_003_ApplyLanguageFilter:14 - ****** Starting TC_003_ApplyLanguageFilter ******
-2026-05-21 09:52:13 INFO  TC_003_ApplyLanguageFilter:17 - ****** Entered Data in search box ******
-2026-05-21 09:52:13 INFO  TC_003_ApplyLanguageFilter:21 - ****** Clicked on Language Dropdown ******
-2026-05-21 09:52:14 INFO  TC_003_ApplyLanguageFilter:24 - ****** Clicked on English Checkbox ******
-2026-05-21 09:52:14 INFO  TC_003_ApplyLanguageFilter:27 - ****** View Button Clicked ******
-2026-05-21 09:52:14 INFO  TC_003_ApplyLanguageFilter:30 - ****** End TC_003_ApplyLanguageFilter ******
-2026-05-21 09:52:31 INFO  TC_004_ApplyLevelFilter:14 - ****** Starting TC_004_ApplyLevelFilter ******
-2026-05-21 09:52:40 INFO  TC_004_ApplyLevelFilter:18 - ****** Entered Data in search box ******
-2026-05-21 09:52:41 INFO  TC_004_ApplyLevelFilter:23 - ****** Clicked on Level Dropdown ******
-2026-05-21 09:52:41 INFO  TC_004_ApplyLevelFilter:26 - ****** Bigginer Level Checkbox Clicked ******
-2026-05-21 09:52:41 INFO  TC_004_ApplyLevelFilter:29 - ****** View Button Clicked ******
-2026-05-21 09:52:41 INFO  TC_004_ApplyLevelFilter:33 - ****** End TC_004_ApplyLevelFilter ******
-2026-05-21 09:52:56 INFO  TC_005_ExtractAllLanguagesAndLevels:18 - ****** Starting TC_005_ExtractAllLanguagesAndLevels ******
-2026-05-21 09:53:06 INFO  TC_005_ExtractAllLanguagesAndLevels:22 - ****** Entered Data in search box ******
-2026-05-21 09:53:10 INFO  TC_005_ExtractAllLanguagesAndLevels:31 - ****** Clicked on Language Dropdown ******
-2026-05-21 09:53:22 INFO  TC_005_ExtractAllLanguagesAndLevels:39 - ****** Language Data is Written in excel ******
-2026-05-21 09:53:23 INFO  TC_005_ExtractAllLanguagesAndLevels:42 - ****** View Button Clicked ******
-2026-05-21 09:53:23 INFO  TC_005_ExtractAllLanguagesAndLevels:48 - ****** Clicked on Level Dropdown ******
-2026-05-21 09:53:24 INFO  TC_005_ExtractAllLanguagesAndLevels:56 - ****** Level Data is Written in excel ******
-2026-05-21 09:53:24 INFO  TC_005_ExtractAllLanguagesAndLevels:59 - ****** View Button Clicked ******
-2026-05-21 09:53:24 INFO  TC_005_ExtractAllLanguagesAndLevels:61 - ****** End TC_004_ExtractAllLanguagesAndLevels ******
-2026-05-21 09:53:43 INFO  TC_006_ExtractCoursesInfo:18 - ****** Starting TC_006_ExtractCoursesInfo ******
-2026-05-21 09:53:51 INFO  TC_006_ExtractCoursesInfo:22 - ****** Entered Data in search box ******
-2026-05-21 09:53:52 INFO  TC_006_ExtractCoursesInfo:32 - ****** Clicked on Language Dropdown ******
-2026-05-21 09:53:53 INFO  TC_006_ExtractCoursesInfo:35 - ****** English Language Checkbox Clicked ******
-2026-05-21 09:53:53 INFO  TC_006_ExtractCoursesInfo:38 - ****** View Button Clicked ******
-2026-05-21 09:53:54 INFO  TC_006_ExtractCoursesInfo:41 - ****** Clicked on Level Dropdown ******
-2026-05-21 09:53:54 INFO  TC_006_ExtractCoursesInfo:44 - ****** Bigginer Level Checkbox Clicked ******
-2026-05-21 09:53:54 INFO  TC_006_ExtractCoursesInfo:47 - ****** View Button Clicked ******
-2026-05-21 09:54:20 INFO  TC_007_ValidateForm:15 - ****** Start TC_007_ValidateForm ******
-2026-05-21 09:54:30 INFO  TC_007_ValidateForm:19 - ****** For Enterprised Clicked ******
-2026-05-21 09:54:39 INFO  TC_007_ValidateForm:23 - ****** Getting form ******
-2026-05-21 09:54:44 INFO  TC_007_ValidateForm:39 - ****** Data entered in form******
-2026-05-21 10:05:27 INFO  TC_001_SearchOptionEnabled:13 - ****** Starting TC_001_SearchOptionEnabled ******
-2026-05-21 10:05:28 INFO  TC_001_SearchOptionEnabled:17 - ****** End TC_001_SearchOptionEnabled *****
-2026-05-21 10:05:47 INFO  TC_002_SearchBoxAceeptData:13 - ****** Starting TC_002_SearchOptionAcceptData ******
-2026-05-21 10:05:56 INFO  TC_002_SearchBoxAceeptData:16 - ****** Entered Data in search box ******
-2026-05-21 10:05:56 INFO  TC_002_SearchBoxAceeptData:18 - ****** End TC_002_SearchOptionAcceptData ******
-2026-05-21 10:06:15 INFO  TC_003_ApplyLanguageFilter:14 - ****** Starting TC_003_ApplyLanguageFilter ******
-2026-05-21 10:06:24 INFO  TC_003_ApplyLanguageFilter:17 - ****** Entered Data in search box ******
-2026-05-21 10:06:25 INFO  TC_003_ApplyLanguageFilter:21 - ****** Clicked on Language Dropdown ******
-2026-05-21 10:06:25 INFO  TC_003_ApplyLanguageFilter:24 - ****** Clicked on English Checkbox ******
-2026-05-21 10:06:26 INFO  TC_003_ApplyLanguageFilter:27 - ****** View Button Clicked ******
-2026-05-21 10:06:26 INFO  TC_003_ApplyLanguageFilter:30 - ****** End TC_003_ApplyLanguageFilter ******
-2026-05-21 10:06:41 INFO  TC_004_ApplyLevelFilter:14 - ****** Starting TC_004_ApplyLevelFilter ******
-2026-05-21 10:06:52 INFO  TC_004_ApplyLevelFilter:18 - ****** Entered Data in search box ******
-2026-05-21 10:06:53 INFO  TC_004_ApplyLevelFilter:23 - ****** Clicked on Level Dropdown ******
-2026-05-21 10:06:54 INFO  TC_004_ApplyLevelFilter:26 - ****** Bigginer Level Checkbox Clicked ******
-2026-05-21 10:06:54 INFO  TC_004_ApplyLevelFilter:29 - ****** View Button Clicked ******
-2026-05-21 10:06:54 INFO  TC_004_ApplyLevelFilter:33 - ****** End TC_004_ApplyLevelFilter ******
-2026-05-21 10:07:11 INFO  TC_005_ExtractAllLanguagesAndLevels:18 - ****** Starting TC_005_ExtractAllLanguagesAndLevels ******
-2026-05-21 10:07:20 INFO  TC_005_ExtractAllLanguagesAndLevels:22 - ****** Entered Data in search box ******
-2026-05-21 10:07:23 INFO  TC_005_ExtractAllLanguagesAndLevels:31 - ****** Clicked on Language Dropdown ******
-2026-05-21 10:07:36 INFO  TC_005_ExtractAllLanguagesAndLevels:39 - ****** Language Data is Written in excel ******
-2026-05-21 10:07:37 INFO  TC_005_ExtractAllLanguagesAndLevels:42 - ****** View Button Clicked ******
-2026-05-21 10:07:37 INFO  TC_005_ExtractAllLanguagesAndLevels:48 - ****** Clicked on Level Dropdown ******
-2026-05-21 10:07:38 INFO  TC_005_ExtractAllLanguagesAndLevels:56 - ****** Level Data is Written in excel ******
-2026-05-21 10:07:38 INFO  TC_005_ExtractAllLanguagesAndLevels:59 - ****** View Button Clicked ******
-2026-05-21 10:07:38 INFO  TC_005_ExtractAllLanguagesAndLevels:61 - ****** End TC_004_ExtractAllLanguagesAndLevels ******
-2026-05-21 10:08:02 INFO  TC_006_ExtractCoursesInfo:18 - ****** Starting TC_006_ExtractCoursesInfo ******
-2026-05-21 10:08:16 INFO  TC_006_ExtractCoursesInfo:22 - ****** Entered Data in search box ******
-2026-05-21 10:08:17 INFO  TC_006_ExtractCoursesInfo:32 - ****** Clicked on Language Dropdown ******
-2026-05-21 10:08:18 INFO  TC_006_ExtractCoursesInfo:35 - ****** English Language Checkbox Clicked ******
-2026-05-21 10:08:18 INFO  TC_006_ExtractCoursesInfo:38 - ****** View Button Clicked ******
-2026-05-21 10:08:19 INFO  TC_006_ExtractCoursesInfo:41 - ****** Clicked on Level Dropdown ******
-2026-05-21 10:08:20 INFO  TC_006_ExtractCoursesInfo:44 - ****** Bigginer Level Checkbox Clicked ******
-2026-05-21 10:08:20 INFO  TC_006_ExtractCoursesInfo:47 - ****** View Button Clicked ******
-2026-05-21 10:08:22 INFO  TC_006_ExtractCoursesInfo:72 - ****** All course info is written in excel ******
-2026-05-21 10:08:22 INFO  TC_006_ExtractCoursesInfo:79 - ****** End TC_006_ExtractCoursesInfo ******
-2026-05-21 10:08:39 INFO  TC_007_ValidateForm:15 - ****** Start TC_007_ValidateForm ******
-2026-05-21 10:08:51 INFO  TC_007_ValidateForm:19 - ****** For Enterprised Clicked ******
-2026-05-21 10:09:02 INFO  TC_007_ValidateForm:23 - ****** Getting form ******
-2026-05-21 10:09:06 INFO  TC_007_ValidateForm:39 - ****** Data entered in form******
-2026-05-21 10:09:08 INFO  TC_007_ValidateForm:44 - ****** Error msg validated ******
-2026-05-21 10:09:08 INFO  TC_007_ValidateForm:46 - ****** End TC_007_ValidateForm ******
+2026-05-25 08:35:12 INFO  TC_001_SearchOptionEnabled:13 - ****** Starting TC_001_SearchOptionEnabled ******
+2026-05-25 08:36:01 INFO  TC_002_SearchBoxAceeptData:13 - ****** Starting TC_002_SearchOptionAcceptData ******
+2026-05-25 08:37:54 INFO  TC_001_SearchOptionEnabled:13 - ****** Starting TC_001_SearchOptionEnabled ******
+2026-05-25 08:37:55 INFO  TC_001_SearchOptionEnabled:17 - ****** End TC_001_SearchOptionEnabled *****
+2026-05-25 08:38:28 INFO  TC_002_SearchBoxAceeptData:13 - ****** Starting TC_002_SearchOptionAcceptData ******
+2026-05-25 08:38:39 INFO  TC_002_SearchBoxAceeptData:16 - ****** Entered Data in search box ******
+2026-05-25 08:38:39 INFO  TC_002_SearchBoxAceeptData:18 - ****** End TC_002_SearchOptionAcceptData ******
+2026-05-25 08:39:05 INFO  TC_003_ApplyLanguageFilter:14 - ****** Starting TC_003_ApplyLanguageFilter ******
+2026-05-25 08:39:13 INFO  TC_003_ApplyLanguageFilter:17 - ****** Entered Data in search box ******
+2026-05-25 08:39:14 INFO  TC_003_ApplyLanguageFilter:21 - ****** Clicked on Language Dropdown ******
+2026-05-25 08:39:15 INFO  TC_003_ApplyLanguageFilter:24 - ****** Clicked on English Checkbox ******
+2026-05-25 08:39:15 INFO  TC_003_ApplyLanguageFilter:27 - ****** View Button Clicked ******
+2026-05-25 08:39:15 INFO  TC_003_ApplyLanguageFilter:30 - ****** End TC_003_ApplyLanguageFilter ******
+2026-05-25 08:39:32 INFO  TC_004_ApplyLevelFilter:14 - ****** Starting TC_004_ApplyLevelFilter ******
+2026-05-25 08:39:41 INFO  TC_004_ApplyLevelFilter:18 - ****** Entered Data in search box ******
+2026-05-25 08:39:42 INFO  TC_004_ApplyLevelFilter:23 - ****** Clicked on Level Dropdown ******
+2026-05-25 08:39:42 INFO  TC_004_ApplyLevelFilter:26 - ****** Bigginer Level Checkbox Clicked ******
+2026-05-25 08:39:43 INFO  TC_004_ApplyLevelFilter:29 - ****** View Button Clicked ******
+2026-05-25 08:39:43 INFO  TC_004_ApplyLevelFilter:33 - ****** End TC_004_ApplyLevelFilter ******
+2026-05-25 08:40:00 INFO  TC_005_ExtractAllLanguagesAndLevels:18 - ****** Starting TC_005_ExtractAllLanguagesAndLevels ******
+2026-05-25 08:40:08 INFO  TC_005_ExtractAllLanguagesAndLevels:22 - ****** Entered Data in search box ******
+2026-05-25 08:40:12 INFO  TC_005_ExtractAllLanguagesAndLevels:31 - ****** Clicked on Language Dropdown ******
+2026-05-25 08:40:25 INFO  TC_005_ExtractAllLanguagesAndLevels:39 - ****** Language Data is Written in excel ******
+2026-05-25 08:40:25 INFO  TC_005_ExtractAllLanguagesAndLevels:42 - ****** View Button Clicked ******
+2026-05-25 08:40:25 INFO  TC_005_ExtractAllLanguagesAndLevels:48 - ****** Clicked on Level Dropdown ******
+2026-05-25 08:40:26 INFO  TC_005_ExtractAllLanguagesAndLevels:56 - ****** Level Data is Written in excel ******
+2026-05-25 08:40:27 INFO  TC_005_ExtractAllLanguagesAndLevels:59 - ****** View Button Clicked ******
+2026-05-25 08:40:27 INFO  TC_005_ExtractAllLanguagesAndLevels:61 - ****** End TC_004_ExtractAllLanguagesAndLevels ******
+2026-05-25 08:40:42 INFO  TC_006_ExtractCoursesInfo:18 - ****** Starting TC_006_ExtractCoursesInfo ******
+2026-05-25 08:40:51 INFO  TC_006_ExtractCoursesInfo:22 - ****** Entered Data in search box ******
+2026-05-25 08:40:52 INFO  TC_006_ExtractCoursesInfo:32 - ****** Clicked on Language Dropdown ******
+2026-05-25 08:40:53 INFO  TC_006_ExtractCoursesInfo:35 - ****** English Language Checkbox Clicked ******
+2026-05-25 08:40:54 INFO  TC_006_ExtractCoursesInfo:38 - ****** View Button Clicked ******
+2026-05-25 08:40:55 INFO  TC_006_ExtractCoursesInfo:41 - ****** Clicked on Level Dropdown ******
+2026-05-25 08:40:56 INFO  TC_006_ExtractCoursesInfo:44 - ****** Bigginer Level Checkbox Clicked ******
+2026-05-25 08:40:56 INFO  TC_006_ExtractCoursesInfo:47 - ****** View Button Clicked ******
+2026-05-25 08:40:58 INFO  TC_006_ExtractCoursesInfo:72 - ****** All course info is written in excel ******
+2026-05-25 08:40:58 INFO  TC_006_ExtractCoursesInfo:79 - ****** End TC_006_ExtractCoursesInfo ******
+2026-05-25 08:41:13 INFO  TC_007_ValidateForm:15 - ****** Start TC_007_ValidateForm ******
+2026-05-25 08:41:22 INFO  TC_007_ValidateForm:19 - ****** For Enterprised Clicked ******
+2026-05-25 08:41:34 INFO  TC_007_ValidateForm:23 - ****** Getting form ******
+2026-05-25 08:41:40 INFO  TC_007_ValidateForm:39 - ****** Data entered in form******
+2026-05-25 08:41:42 INFO  TC_007_ValidateForm:44 - ****** Error msg validated ******
+2026-05-25 08:41:42 INFO  TC_007_ValidateForm:46 - ****** End TC_007_ValidateForm ******
+2026-05-25 09:03:41 INFO  TC_001_SearchOptionEnabled:13 - ****** Starting TC_001_SearchOptionEnabled ******
+2026-05-25 09:03:42 INFO  TC_001_SearchOptionEnabled:17 - ****** End TC_001_SearchOptionEnabled *****
+2026-05-25 09:03:57 INFO  TC_002_SearchBoxAceeptData:13 - ****** Starting TC_002_SearchOptionAcceptData ******
+2026-05-25 09:04:07 INFO  TC_002_SearchBoxAceeptData:16 - ****** Entered Data in search box ******
+2026-05-25 09:04:07 INFO  TC_002_SearchBoxAceeptData:18 - ****** End TC_002_SearchOptionAcceptData ******
+2026-05-25 09:04:31 INFO  TC_003_ApplyLanguageFilter:14 - ****** Starting TC_003_ApplyLanguageFilter ******
+2026-05-25 09:04:40 INFO  TC_003_ApplyLanguageFilter:17 - ****** Entered Data in search box ******
+2026-05-25 09:04:41 INFO  TC_003_ApplyLanguageFilter:21 - ****** Clicked on Language Dropdown ******
+2026-05-25 09:04:42 INFO  TC_003_ApplyLanguageFilter:24 - ****** Clicked on English Checkbox ******
+2026-05-25 09:04:43 INFO  TC_003_ApplyLanguageFilter:27 - ****** View Button Clicked ******
+2026-05-25 09:04:43 INFO  TC_003_ApplyLanguageFilter:30 - ****** End TC_003_ApplyLanguageFilter ******
+2026-05-25 09:05:04 INFO  TC_004_ApplyLevelFilter:14 - ****** Starting TC_004_ApplyLevelFilter ******
+2026-05-25 09:05:16 INFO  TC_004_ApplyLevelFilter:18 - ****** Entered Data in search box ******
+2026-05-25 09:05:16 INFO  TC_004_ApplyLevelFilter:23 - ****** Clicked on Level Dropdown ******
+2026-05-25 09:05:17 INFO  TC_004_ApplyLevelFilter:26 - ****** Bigginer Level Checkbox Clicked ******
+2026-05-25 09:05:18 INFO  TC_004_ApplyLevelFilter:29 - ****** View Button Clicked ******
+2026-05-25 09:05:18 INFO  TC_004_ApplyLevelFilter:33 - ****** End TC_004_ApplyLevelFilter ******
+2026-05-25 09:05:46 INFO  TC_005_ExtractAllLanguagesAndLevels:18 - ****** Starting TC_005_ExtractAllLanguagesAndLevels ******
+2026-05-25 09:05:56 INFO  TC_005_ExtractAllLanguagesAndLevels:22 - ****** Entered Data in search box ******
+2026-05-25 09:06:04 INFO  TC_005_ExtractAllLanguagesAndLevels:31 - ****** Clicked on Language Dropdown ******
+2026-05-25 09:06:21 INFO  TC_005_ExtractAllLanguagesAndLevels:39 - ****** Language Data is Written in excel ******
+2026-05-25 09:06:22 INFO  TC_005_ExtractAllLanguagesAndLevels:42 - ****** View Button Clicked ******
+2026-05-25 09:06:22 INFO  TC_005_ExtractAllLanguagesAndLevels:48 - ****** Clicked on Level Dropdown ******
+2026-05-25 09:06:23 INFO  TC_005_ExtractAllLanguagesAndLevels:56 - ****** Level Data is Written in excel ******
+2026-05-25 09:06:24 INFO  TC_005_ExtractAllLanguagesAndLevels:59 - ****** View Button Clicked ******
+2026-05-25 09:06:24 INFO  TC_005_ExtractAllLanguagesAndLevels:61 - ****** End TC_004_ExtractAllLanguagesAndLevels ******
+2026-05-25 09:06:47 INFO  TC_006_ExtractCoursesInfo:18 - ****** Starting TC_006_ExtractCoursesInfo ******
+2026-05-25 09:07:02 INFO  TC_006_ExtractCoursesInfo:22 - ****** Entered Data in search box ******
+2026-05-25 09:07:03 INFO  TC_006_ExtractCoursesInfo:32 - ****** Clicked on Language Dropdown ******
+2026-05-25 09:07:04 INFO  TC_006_ExtractCoursesInfo:35 - ****** English Language Checkbox Clicked ******
+2026-05-25 09:07:06 INFO  TC_006_ExtractCoursesInfo:38 - ****** View Button Clicked ******
+2026-05-25 09:07:06 INFO  TC_006_ExtractCoursesInfo:41 - ****** Clicked on Level Dropdown ******
+2026-05-25 09:07:07 INFO  TC_006_ExtractCoursesInfo:44 - ****** Bigginer Level Checkbox Clicked ******
+2026-05-25 09:07:08 INFO  TC_006_ExtractCoursesInfo:47 - ****** View Button Clicked ******
+2026-05-25 09:07:10 INFO  TC_006_ExtractCoursesInfo:74 - ****** All course info is written in excel ******
+2026-05-25 09:07:10 INFO  TC_006_ExtractCoursesInfo:81 - ****** End TC_006_ExtractCoursesInfo ******
+2026-05-25 09:07:32 INFO  TC_007_ValidateForm:15 - ****** Start TC_007_ValidateForm ******
+2026-05-25 09:07:48 INFO  TC_007_ValidateForm:19 - ****** For Enterprised Clicked ******
+2026-05-25 09:08:03 INFO  TC_007_ValidateForm:23 - ****** Getting form ******
+2026-05-25 09:08:11 INFO  TC_007_ValidateForm:39 - ****** Data entered in form******
+2026-05-25 09:08:12 INFO  TC_007_ValidateForm:44 - ****** Error msg validated ******
+2026-05-25 09:08:12 INFO  TC_007_ValidateForm:46 - ****** End TC_007_ValidateForm ******
